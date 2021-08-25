@@ -23,6 +23,7 @@ interface MigrationLogCommonCreateAttributes {
   CreatedByUserId: number;
 }
 
+// TODO: Find a better name for model
 class MigrationLog
   extends Model<MigrationLogAttributes, MigrationLogCommonCreateAttributes>
   implements MigrationLogAttributes
